@@ -2,7 +2,7 @@
 
 // Calculate and return the total sum using recursive approach
 const sum = (arr) => {
-  if(arr.length === 0){
+  if(arr.length === 0){ //base case when reached ,recursive case stops
    return 0;
 }
 // Recursive case: Add the first element of the array (arr[0])
